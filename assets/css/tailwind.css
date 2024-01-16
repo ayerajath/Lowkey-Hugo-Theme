@@ -358,6 +358,14 @@
     @apply flex flex-row items-center justify-between;
   }
 
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+    .header {
+      @apply flex flex-row items-center justify-center;
+    }
+  }
+
   .header .toggle-theme {
     @apply w-6 h-6;
   }
